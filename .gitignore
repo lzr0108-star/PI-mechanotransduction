@@ -1,0 +1,36 @@
+# ---- R / Python transient files ----
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+__pycache__/
+*.pyc
+
+# ---- Operating system ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Large raw data and binary outputs (not distributed on GitHub) ----
+*.rds
+*.RDS
+*.mtx
+*.h5
+*.h5ad
+*.tar
+*.tgz
+*.tar.gz
+*.zip
+*.gz
+*.tif
+*.tiff
+*.ai
+*.pdf
+*.xlsx
+*.xls
+*.csv
+*.tsv
+
+# ---- Third-party curated databases (download separately; see README) ----
+27.GSEA/*.gmt
+39.drugEnrich/DSigDB_All_detailed.txt
